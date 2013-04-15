@@ -8,6 +8,11 @@
 #ifndef CARTE_H_
 #define CARTE_H_
 
+typedef struct carte{
+	char typeCarte;
+	char couleur;
+}Carte;
 
+typedef Carte* CARTE;
 
 #endif /* CARTE_H_ */
